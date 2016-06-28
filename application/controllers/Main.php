@@ -3,12 +3,12 @@ class Main extends CI_Controller {
 
 	/**
 	 * __construct function.
-	 * 
+	 *
 	 * @access public
 	 * @return void
 	 */
 	public function __construct() {
-		
+
 		parent::__construct();
 		$this->load->library(array('session'));
 		$this->load->helper(array('url'));
@@ -17,6 +17,7 @@ class Main extends CI_Controller {
 
 	public function index(){
 		$this->login();
+		//meow
 	}
 
 	public function login(){
