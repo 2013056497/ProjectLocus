@@ -17,7 +17,7 @@ class Main extends CI_Controller {
 
 	public function index(){
 		$this->login();
-		//meow
+		//meows
 	}
 
 	public function login(){
