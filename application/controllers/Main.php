@@ -3,14 +3,15 @@ class Main extends CI_Controller {
 
 	/**
 	 * __construct function.
-	 * 
+	 *
 	 * @access public
 	 * @return void
 	 */
 	public function __construct() {
-		
+
 		parent::__construct();
 		$this->load->library(array('session'));
+		//add comment
 		$this->load->helper(array('url'));
 		$this->load->helper(array('form'));
 	}
