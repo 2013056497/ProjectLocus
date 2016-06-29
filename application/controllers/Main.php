@@ -51,7 +51,7 @@ class Main extends CI_Controller {
 	}
 
 	public function try(){
-		
+		echo "locol";
 	}
 
 
