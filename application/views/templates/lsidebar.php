@@ -16,13 +16,13 @@
                     <span>Projects</span>
                 </a>
                 <ul class="sub">
-<<<<<<< HEAD
+
                     <li><a  href="<?= site_url('main/manage_projects')?>">Manage Projects</a></li>
                     <li><a  href="<?= site_url('main/add_project')?>">Add Project</a></li>
-=======
+
                     <li><a  href="<?= site_url('main/projects')?>">View Projects</a></li>
                     <li><a  href="<?= site_url('main/addproject')?>">Add Project</a></li>
->>>>>>> 12c43593d3b69a794558e4ebadd99caf2cc6489d
+
                 </ul>
             </li>
 
