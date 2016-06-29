@@ -51,11 +51,7 @@ class Main extends CI_Controller {
 		$this->load->view('templates/footer');
 	}
 
-	public function try(){
-		//comment pa more
-		//new comment
-		echo "locol";
-	}
+	
 
 
 }
