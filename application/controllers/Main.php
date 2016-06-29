@@ -11,8 +11,8 @@ class Main extends CI_Controller {
 
 		parent::__construct();
 		$this->load->library(array('session'));
-		$this->load->helper(array('url'));
-		$this->load->helper(array('form'));
+		// $this->load->helper(array('url'));
+		// $this->load->helper(array('form'));
 	}
 
 	public function index(){
