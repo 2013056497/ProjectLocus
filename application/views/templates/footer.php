@@ -1,7 +1,7 @@
       <!--footer start-->
       <footer class="site-footer">
           <div class="text-center">
-              2013 &copy; FlatLab by VectorLab.
+              2016 &copy; Project Locus by Team Locus | Powered by <a class="red" href="http://www.pldt.com.ph">PLDT</a> "We're Changing Lives."
               <a href="#" class="go-top">
                   <i class="fa fa-angle-up"></i>
               </a>
