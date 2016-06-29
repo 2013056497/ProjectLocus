@@ -11,14 +11,13 @@ class Main extends CI_Controller {
 
 		parent::__construct();
 		$this->load->library(array('session'));
-		//add comment
 		$this->load->helper(array('url'));
 		$this->load->helper(array('form'));
 	}
 
 	public function index(){
 		$this->login();
-		//meows
+
 	}
 
 	public function login(){
@@ -51,7 +50,7 @@ class Main extends CI_Controller {
 		$this->load->view('templates/footer');
 	}
 
-	
+
 
 
 }
