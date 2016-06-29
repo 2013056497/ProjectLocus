@@ -51,12 +51,11 @@ Website: http://thevectorlab.net/
     margin-top: 10px;
     margin-left: -10px;
 }
-
 .notif_count {
     font-size: 1em;
 }
 ::-webkit-input-placeholder {
-   color: #fff;
+   color: #000;
 }
 
 textarea:focus, input:focus {
@@ -137,7 +136,7 @@ a, a:hover, a:focus {
     font-family: 'Open Sans', sans-serif;
 }
 .form-control {
-    color: #fff !important;
+    color: #000 !important;
 }
 .form-signin .form-control {
     position: relative;
@@ -232,6 +231,9 @@ a, a:hover, a:focus {
     position: fixed;
     background: #460817;
     overflow-y: scroll;
+    -webkit-box-shadow: inset -5px 0px 12px -5px rgba(0,0,0,0.51);
+    -moz-box-shadow: inset -5px 0px 12px -5px rgba(0,0,0,0.51);
+    box-shadow: inset -5px 0px 12px -5px rgba(0,0,0,0.51);
 }
 
 #sidebar ul li {
@@ -289,7 +291,7 @@ ul.sidebar-menu {
 }
 
 ul.sidebar-menu li ul.sub li{
-    background: #5d0b1f;
+    background: #2f050f;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -353,7 +355,7 @@ ul.sidebar-menu li a{
 }
 
 ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
-    background: #5d0b1f;
+    background: #2f050f;
     color: #fff;
     display: block;
     border-radius: 4px;
