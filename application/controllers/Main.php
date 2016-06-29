@@ -48,6 +48,7 @@ class Main extends CI_Controller {
 		$this->load->view('templates/rsidebar');
 		$this->load->view('pages/proj_add');
 		$this->load->view('templates/footer');
+		
 	}
 
 
