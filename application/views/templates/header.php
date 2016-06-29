@@ -145,7 +145,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <span class="photo"><img alt<?=base_url()?>img/avatar-mini.jpg"></span>
+                                    <span class="photo"><img alt"<?=base_url()?>img/avatar-mini.jpg"></span>
                                     <span class="subject">
                                     <span class="from">Jonathan Smith</span>
                                     <span class="time">Just now</span>
@@ -157,7 +157,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <span class="photo"><img alt<?=base_url()?>img/avatar-mini2.jpg"></span>
+                                    <span class="photo"><img alt="<?=base_url()?>img/avatar-mini2.jpg"></span>
                                     <span class="subject">
                                     <span class="from">Jhon Doe</span>
                                     <span class="time">10 mins</span>
@@ -169,7 +169,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <span class="photo"><img alt<?=base_url()?>img/avatar-mini3.jpg"></span>
+                                    <span class="photo"><img alt="<?=base_url()?>img/avatar-mini3.jpg"></span>
                                     <span class="subject">
                                     <span class="from">Jason Stathum</span>
                                     <span class="time">3 hrs</span>
@@ -181,7 +181,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <span class="photo"><img alt<?=base_url()?>img/avatar-mini4.jpg"></span>
+                                    <span class="photo"><img alt="<?=base_url()?>img/avatar-mini4.jpg"></span>
                                     <span class="subject">
                                     <span class="from">Jondi Rose</span>
                                     <span class="time">Just now</span>
@@ -263,7 +263,7 @@
                     <li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                             <img src="<?=base_url()?>img/avatar1_small.jpg">
-                            <span class="username">Jhon Doue</span>
+                            <span class="username"><?php echo $this->session->userdata('fullname');?></span>
                             <b class="caret"></b>
                         </a>
                         <ul class="dropdown-menu extended logout">
@@ -271,7 +271,7 @@
                             <li><a href="#"><i class=" fa fa-suitcase"></i>Profile</a></li>
                             <li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
                             <li><a href="#"><i class="fa fa-bell-o"></i> Notification</a></li>
-                            <li><a href="<?= site_url('main/login') ?>"><i class="fa fa-key"></i> Log Out</a>
+                            <li><a href="<?= site_url('main/logout') ?>"><i class="fa fa-key"></i> Log Out</a>
 
                             </li>
                         </ul>
