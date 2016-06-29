@@ -18,6 +18,7 @@ class Main extends CI_Controller {
 
 	public function index(){
 		$this->login();
+		//meows
 	}
 
 	public function login(){
@@ -49,5 +50,11 @@ class Main extends CI_Controller {
 		$this->load->view('pages/proj_add');
 		$this->load->view('templates/footer');
 	}
+
+	public function try(){
+		
+	}
+
+
 }
 ?>
