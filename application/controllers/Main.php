@@ -34,11 +34,9 @@ class Main extends CI_Controller {
 		$this->load->view('templates/footer');
 	}
 
-<<<<<<< HEAD
+
 	public function manage_projects(){
-=======
-	public function projects(){
->>>>>>> 12c43593d3b69a794558e4ebadd99caf2cc6489d
+
 		$this->load->view('templates/header');
 		$this->load->view('templates/lsidebar');
 		$this->load->view('templates/rsidebar');
