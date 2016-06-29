@@ -44,7 +44,7 @@
                   <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
               </div>
             <!--logo start-->
-            <a href="<?=site_url('main/index')?>"><img src="<?=base_url('')?>img/logo/locus_logotxt.png?>" onmouseover="this.src='<?=base_url('')?>img/logo/mo_locus_logotxt.png?>'" onmouseout="this.src='<?=base_url('')?>img/logo/locus_logotxt.png?>'" id="logotext"></a>
+            <a style="display:block;" href="<?=site_url('main/index')?>"><img src="<?=base_url('')?>img/logo/locus_logotxt.png?>" onmouseover="this.src='<?=base_url('')?>img/logo/mo_locus_logotxt.png?>'" onmouseout="this.src='<?=base_url('')?>img/logo/locus_logotxt.png?>'" id="logotext"></a>
             <!--logo end-->
             <div class="nav notify-row" id="top_menu">
                 <!--  notification start -->
@@ -285,4 +285,3 @@
             </div>
         </header>
       <!--header end-->
-    

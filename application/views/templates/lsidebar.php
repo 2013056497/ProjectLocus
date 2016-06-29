@@ -16,8 +16,8 @@
                     <span>Projects</span>
                 </a>
                 <ul class="sub">
-                    <li><a  href="<?= site_url('main/proj_view')?>">View Projects</a></li>
-                    <li><a  href="<?= site_url('main/proj_add')?>">Add Project</a></li>
+                    <li><a  href="<?= site_url('main/manage_projects')?>">Manage Projects</a></li>
+                    <li><a  href="<?= site_url('main/add_project')?>">Add Project</a></li>
                 </ul>
             </li>
 
