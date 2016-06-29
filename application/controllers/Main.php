@@ -52,7 +52,7 @@ class Main extends CI_Controller {
 	}
 
 	public function try(){
-		//comment
+		//comment pa more
 		echo "locol";
 	}
 
