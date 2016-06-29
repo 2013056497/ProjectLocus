@@ -34,7 +34,7 @@ class Main extends CI_Controller {
 		$this->load->view('templates/footer');
 	}
 
-	public function proj_view(){
+	public function projects(){
 		$this->load->view('templates/header');
 		$this->load->view('templates/lsidebar');
 		$this->load->view('templates/rsidebar');
@@ -42,7 +42,7 @@ class Main extends CI_Controller {
 		$this->load->view('templates/footer');
 	}
 
-	public function proj_add(){
+	public function addproject(){
 		$this->load->view('templates/header');
 		$this->load->view('templates/lsidebar');
 		$this->load->view('templates/rsidebar');
