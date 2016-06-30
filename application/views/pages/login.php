@@ -2,11 +2,22 @@
   <img id="logo" src="<?=base_url()?>img/logo/locus_logo.png" align="middle"/>
   <h1 id="logo_title">Locus</h1>
   <h2 id="logo_subtitle">A Project Management Platform</h2>
-  <?= form_open('main/dashboard', 'class="form-signin"')?>
+  <?= form_open('main/authentication', 'class="form-signin"')?>
     <h2 class="form-signin-heading">sign in now</h2>
     <div class="login-wrap">
-        <input type="text" class="form-control" placeholder="User ID" autofocus>
-        <input type="password" class="form-control" placeholder="Password">
+      <div class="form-group <?php if(form_error('email')){echo 'has-error';}?>">
+
+        <input type="text" name="email" class="form-control" placeholder="Email">
+            <?php  if(form_error('email')){?>
+              <span><?php echo form_error('email'); ?></span>
+            <?php } ?>
+      </div>
+      <div class="form-group <?php if(form_error('password')){echo 'has-error';}?>">
+        <input type="password" name="password" class="form-control" placeholder="Password">
+        <?php  if(form_error('password')){?>
+          <span><?php echo form_error('password'); ?></span>
+        <?php } ?>
+      </div>
         <label class="checkbox">
             <input type="checkbox" value="remember-me"> Remember me
             <span class="pull-right">
@@ -28,7 +39,7 @@
                   </div>
                   <div class="modal-body">
                       <p>Enter your e-mail address below to reset your password.</p>
-                      <input type="text" name="email" placeholder="Email" autocomplete="off" class="form-control placeholder-no-fix">
+                      <input type="text" name="lostemail" placeholder="Email" autocomplete="off" class="form-control placeholder-no-fix">
 
                   </div>
                   <div class="modal-footer">
