@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="<?=base_url()?>css/owl.carousel.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/bootstrap-fileupload/bootstrap-fileupload.css" />
 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
     <!--right slidebar-->
     <link href="<?=base_url()?>css/slidebars.css" rel="stylesheet">
 
