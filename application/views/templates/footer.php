@@ -35,7 +35,6 @@
     <script src="<?=base_url()?>js/count.js"></script>
 
   <script  src="<?=base_url()?>assets/bootstrap-fileupload/bootstrap-fileupload.js"></script>
-   <script src="<?=base_url()?>js/advanced-form-components.js"></script>
 
   <script>
 
