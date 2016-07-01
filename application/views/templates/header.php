@@ -17,6 +17,7 @@
     <link href="<?=base_url()?>assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
     <link href="<?=base_url()?>assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen"/>
     <link rel="stylesheet" href="<?=base_url()?>css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/bootstrap-fileupload/bootstrap-fileupload.css" />
 
     <!--right slidebar-->
     <link href="<?=base_url()?>css/slidebars.css" rel="stylesheet">
@@ -268,7 +269,7 @@
                         </a>
                         <ul class="dropdown-menu extended logout">
                             <div class="log-arrow-up"></div>
-                            <li><a href="#"><i class=" fa fa-suitcase"></i>Profile</a></li>
+                            <li><a href="<?= site_url('main/profile') ?>"><i class=" fa fa-suitcase"></i>Profile</a></li>
                             <li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
                             <li><a href="#"><i class="fa fa-bell-o"></i> Notification</a></li>
                             <li><a href="<?= site_url('main/logout') ?>"><i class="fa fa-key"></i> Log Out</a>
