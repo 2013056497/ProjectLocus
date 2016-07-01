@@ -12,6 +12,13 @@
   </section>
 
     <!-- js placed at the end of the document so the pages load faster -->
+    <script type="text/javascript">
+  $('select').select2();
+   $(".js-example-basic-multiple").select2({
+     placeholder: "Select team"
+   });
+
+  </script>
     <script src="<?=base_url()?>js/jquery.js"></script>
     <script src="<?=base_url()?>js/bootstrap.min.js"></script>
     <script class="include" type="text/javascript" src="<?=base_url()?>js/jquery.dcjqaccordion.2.7.js"></script>
@@ -63,6 +70,8 @@
       });
 
   </script>
+
+
 
   </body>
 

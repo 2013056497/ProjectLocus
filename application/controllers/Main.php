@@ -9,6 +9,8 @@ class Main extends CI_Controller {
 	public function __construct() {
 		parent::__construct();
 		$this->load->library(array('session'));
+		$this->load->model('model_main');
+		$this->load->library('form_validation');
 		// $this->load->helper(array('url'));
 		// $this->load->helper(array('form'));
 	}
@@ -48,10 +50,17 @@ class Main extends CI_Controller {
 	}
 	public function add_project(){
 		if($this->session->userdata('is_logged_in') == TRUE){
+					$data['project_types'] = $this ->model_main->fetchAllProjectTypes();
+					$data['project_status'] = $this ->model_main->fetchAllProjectStatus();
+					$data['hspd_emps'] = $this ->model_main->fetchAllHSPDEmps();
+					$data['ham_emps'] = $this ->model_main->fetchAllHAMEmps();
+					$data['hscd_emps'] = $this->model_main->fetchAllHSCDEmps();
+					$data['hsqm_emps'] = $this ->model_main->fetchAllHSQMEmps();
+					$data['center_heads'] = $this ->model_main->fetchAllCenterHeads();
 					$this->load->view('templates/header');
 					$this->load->view('templates/lsidebar');
 					$this->load->view('templates/rsidebar');
-					$this->load->view('pages/add_project');
+					$this->load->view('pages/add_project', $data);
 					$this->load->view('templates/footer');
 		}else{
 			redirect('main');

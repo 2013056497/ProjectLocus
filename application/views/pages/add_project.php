@@ -18,9 +18,9 @@
                                 <div class="form-group">
                                     <label class="col-lg-2 control-label">Type</label>
                                     <div class="col-lg-10">
-                                        <select class="form-control">
-																					<?php foreach($results_array as $key => $value){ ?>
-                													<option value="<?php echo $value['profile'];?>"><?php echo $value['profile'];     ?></option>
+                                        <select class="form-control js-example-basic-single">
+																					<?php foreach($project_types as $project_type){ ?>
+                													<option value="<?php echo $project_type['id'];?>"><?php echo $project_type['name'];     ?></option>
 																					<?php } ?>
                                         </select>
                                     </div>
@@ -28,9 +28,9 @@
 																<div class="form-group">
                                     <label class="col-lg-2 control-label">Status</label>
                                     <div class="col-lg-10">
-                                        <select class="form-control">
-																					<?php foreach($results_array as $key => $value){ ?>
-                													<option value="<?php echo $value['profile'];?>"><?php echo $value['profile'];     ?></option>
+                                        <select class="form-control js-example-basic-single">
+																					<?php foreach($project_status as $pstatus){ ?>
+                													<option value="<?php echo $pstatus['id'];?>"><?php echo $pstatus['name'];     ?></option>
 																					<?php } ?>
                                         </select>
                                     </div>
@@ -52,15 +52,40 @@
                                 <div class="form-group">
                                     <label class="col-lg-2 control-label">Team</label>
                                     <div class="col-lg-10">
-																			<div class="checkbox">
-																				<label><input type="checkbox" value="">Option 1</label>
-																				</div>
-																				<div class="checkbox">
-																				<label><input type="checkbox" value="">Option 2</label>
-																				</div>
-																				<div class="checkbox disabled">
-																				<label><input type="checkbox" value="" disabled>Option 3</label>
-																				</div>
+                                      <select class="form-control js-example-basic-multiple"  multiple="multiple">
+
+                                        <optgroup label="Center Heads">
+                                          <?php foreach ($center_heads as $center_head) { ?>
+                                              <option value="<?php echo $center_head['user_id']; ?>"><?php echo $center_head['fname']; ?></option>
+                                          <?php } ?>
+
+
+
+                                        </optgroup>
+                                        <optgroup label="HSPD">
+                                          <?php foreach ($hspd_emps as $hspd_emp) { ?>
+                                              <option value="<?php echo $hspd_emp['user_id']; ?>"><?php echo $hspd_emp['fname']; ?></option>
+                                          <?php } ?>
+                                        </optgroup>
+                                        <optgroup label="HAM">
+                                          <?php foreach ($ham_emps as $ham_emp) { ?>
+                                              <option value="<?php echo $ham_emp['user_id']; ?>"><?php echo $ham_emp['fname']; ?></option>
+                                          <?php } ?>
+                                        </optgroup>
+                                        <optgroup label="HSCD">
+                                          <?php foreach ($hscd_emps as $hscd_emp) { ?>
+                                              <option value="<?php echo $hscd_emp['user_id']; ?>"><?php echo $hscd_emp['fname']; ?></option>
+                                          <?php } ?>
+                                        </optgroup>
+                                        <optgroup label="HSQM">
+                                          <?php foreach ($hsqm_emps as $hsqm_emp) { ?>
+                                              <option value="<?php echo $hsqm_emp['user_id']; ?>"><?php echo $hsqm_emp['fname']; ?></option>
+                                          <?php } ?>
+                                        </optgroup>
+
+
+                                              <option value="WY">Wyoming</option>
+                                      </select>
                                     </div>
                                 </div>
 

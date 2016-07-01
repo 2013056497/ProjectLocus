@@ -10,24 +10,32 @@
 
     <title>Locus: A Project Management Platform</title>
 
+
     <!-- Bootstrap core CSS -->
     <link href="<?=base_url()?>css/bootstrap.min.css" rel="stylesheet">
     <link href="<?=base_url()?>css/bootstrap-reset.css" rel="stylesheet">
+
     <!--external css-->
     <link href="<?=base_url()?>assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
     <link href="<?=base_url()?>assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen"/>
     <link rel="stylesheet" href="<?=base_url()?>css/owl.carousel.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/bootstrap-fileupload/bootstrap-fileupload.css" />
+    <!--  summernote -->
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
+
     <!--right slidebar-->
     <link href="<?=base_url()?>css/slidebars.css" rel="stylesheet">
+   <link href="<?=base_url()?>assets/summernote/dist/summernote.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
 
     <link href="<?=base_url()?>css/style.css" rel="stylesheet">
-    <link href="<?=base_url()?>css/style-responsive.css" rel="stylesheet" />
+    <!-- <link href="<?=base_url()?>css/style-responsive.css" rel="stylesheet" /> -->
+    <!-- select2 -->
+    <link href="<?=base_url()?>css/select2.min.css" rel="stylesheet">
+      <script src="<?=base_url()?>js/select2.min.js"></script>
 
 
 
