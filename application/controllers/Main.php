@@ -47,7 +47,6 @@ class Main extends CI_Controller {
 
 	}
 
-
 	public function manage_projects(){
 
 		if($this->session->userdata('is_logged_in') == TRUE){
