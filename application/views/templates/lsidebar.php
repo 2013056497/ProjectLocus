@@ -9,7 +9,7 @@
                     <span>Dashboard</span>
                 </a>
             </li>
-<!-- dd -->
+
             <li class="sub-menu">
                 <a href="javascript:;" >
                     <i class="fa fa-sitemap"></i>
@@ -50,7 +50,7 @@
                 </a>
                 <ul class="sub">
                     <li><a  href="<?= site_url('main/manage_discussions')?>">Manage Discussions</a></li>
-                    <li><a  href="<?= site_url('main/add_discussion')?>">Add Discussion</a></li>
+                    <li><a  href="<?= site_url('main/a  _discussion')?>">Add Discussion</a></li>
                 </ul>
             </li>
 
