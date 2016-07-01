@@ -2,7 +2,7 @@
       <!--footer start-->
       <footer class="site-footer">
           <div class="text-center">
-              2016 &copy; Project Locus by Team Locus | Powered by <a style="text-decoration:none;" href="http://www.pldt.com.ph">PLDT</a> "We're Changing Lives."
+              2016 &copy; Project Locus by Team Locus | Powered by <a id="footerlnk" href="http://www.pldt.com.ph">PLDT</a> "We're Changing Lives."
               <a href="#" class="go-top">
                   <i class="fa fa-angle-up"></i>
               </a>
@@ -34,6 +34,8 @@
     <script src="<?=base_url()?>js/easy-pie-chart.js"></script>
     <script src="<?=base_url()?>js/count.js"></script>
 
+    <!--dynamic table initialization -->
+    <script src="<?=site_url()?>js/dynamic_table_init.js"></script>
   <script>
 
       //owl carousel
