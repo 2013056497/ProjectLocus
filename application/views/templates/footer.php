@@ -10,10 +10,9 @@
       </footer>
       <!--footer end-->
   </section>
-
+    <!--JQuery-->
     <!-- js placed at the end of the document so the pages load faster -->
-    <script src="<?=base_url()?>js/jquery.js"></script>
-    <script src="<?=base_url()?>js/bootstrap.min.js"></script>
+    
     <script class="include" type="text/javascript" src="<?=base_url()?>js/jquery.dcjqaccordion.2.7.js"></script>
     <script src="<?=base_url()?>js/jquery.scrollTo.min.js"></script>
     <script src="<?=base_url()?>js/jquery.nicescroll.js" type="text/javascript"></script>
@@ -28,41 +27,6 @@
 
     <!--common script for all pages-->
     <script src="<?=base_url()?>js/common-scripts.js"></script>
-
-    <!--script for this page-->
-    <script src="<?=base_url()?>js/sparkline-chart.js"></script>
-    <script src="<?=base_url()?>js/easy-pie-chart.js"></script>
-    <script src="<?=base_url()?>js/count.js"></script>
-
-  <script  src="<?=base_url()?>assets/bootstrap-fileupload/bootstrap-fileupload.js"></script>
-
-  <script>
-
-      //owl carousel
-
-      $(document).ready(function() {
-          $("#owl-demo").owlCarousel({
-              navigation : true,
-              slideSpeed : 300,
-              paginationSpeed : 400,
-              singleItem : true,
-			  autoPlay:true
-
-          });
-      });
-
-      //custom select box
-
-      $(function(){
-          $('select.styled').customSelect();
-      });
-
-      $(window).on("resize",function(){
-          var owl = $("#owl-demo").data("owlCarousel");
-          owl.reinit();
-      });
-
-  </script>
 
   </body>
 

@@ -62,13 +62,18 @@ textarea:focus, input:focus {
     color: #fff;
 }
 
-.table {
+.table, .panel {
   color:#000;
 }
 
 a, a:visited  {
   color:#D41C2A;
 }
+
+#red {
+  background-color: #D41C2A;
+}
+
 
 
 body {

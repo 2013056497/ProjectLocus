@@ -29,8 +29,11 @@
     <link href="<?=base_url()?>css/style.css" rel="stylesheet">
     <link href="<?=base_url()?>css/style-responsive.css" rel="stylesheet" />
 
+    <!--JQuery-->
 
-
+    <script src="<?=base_url()?>js/jquery.js"></script>
+    <script src="<?=base_url()?>js/bootstrap.min.js"></script>
+    
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
