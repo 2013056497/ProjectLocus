@@ -57,5 +57,69 @@ class Model_main extends CI_Model{
     }
 
 
+    public function fetchAllProjectTypes(){
+      $this -> db ->select('*');
+      $this -> db ->from('projects_types');
+      $query = $this->db->get();
+      return $query->result_array();
+    }
+
+    public function fetchAllProjectStatus(){
+      $this -> db ->select('*');
+      $this -> db ->from('projects_status');
+      $query = $this->db->get();
+      return $query->result_array();
+    }
+
+    public function fetchAllCenterHeads(){
+      $this -> db ->select('*');
+      $this -> db ->from('users');
+      $this -> db ->where('hpd_id', 1);
+      $this -> db ->where('user_id !=', $this->session->userdata('id'));
+      $query = $this->db->get();
+      return $query->result_array();
+
+
+    }
+
+
+    public function fetchAllHSQMEmps(){
+      $this -> db ->select('*');
+      $this -> db ->from('users');
+      $this -> db ->where('hpd_id', 5);
+      $this -> db ->where('user_id !=', $this->session->userdata('id'));
+      $query = $this->db->get();
+      return $query->result_array();
+    }
+
+    public function fetchAllHSCDEmps(){
+      $this -> db ->select('*');
+      $this -> db ->from('users');
+      $this -> db ->where('hpd_id', 4);
+      $this -> db ->where('user_id !=', $this->session->userdata('id'));
+      $query = $this->db->get();
+      return $query->result_array();
+    }
+
+    public function fetchAllHAMEmps(){
+      $this -> db ->select('*');
+      $this -> db ->from('users');
+      $this -> db ->where('hpd_id', 3);
+      $this -> db ->where('user_id !=', $this->session->userdata('id'));
+      $query = $this->db->get();
+      return $query->result_array();
+    }
+
+    public function fetchAllHSPDEmps(){
+      $this -> db ->select('*');
+      $this -> db ->from('users');
+      $this -> db ->where('hpd_id', 2);
+      $this -> db ->where('user_id !=', $this->session->userdata('id'));
+      $query = $this->db->get();
+      return $query->result_array();
+    }
+
+
+
 
 }
