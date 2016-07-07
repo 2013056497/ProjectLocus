@@ -33,7 +33,7 @@
       <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal" class="modal fade">
           <div class="modal-dialog">
               <div class="modal-content">
-                  <div class="modal-header">
+                  <div id="red" class="modal-header">
                       <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                       <h4 class="modal-title">Forgot Password ?</h4>
                   </div>
@@ -44,7 +44,7 @@
                   </div>
                   <div class="modal-footer">
                       <button data-dismiss="modal" class="btn btn-default" type="button">Cancel</button>
-                      <button class="btn btn-success" type="button">Submit</button>
+                      <button id="red" class="btn btn-success" type="button">Submit</button>
                   </div>
               </div>
           </div>

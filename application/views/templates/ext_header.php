@@ -25,4 +25,4 @@
     <![endif]-->
 </head>
 
-  <body class="login-body" style="background-image: url(<?=base_url()?>/img/geo_bg.svg); background-repeat:no-repeat;background-size:cover;">
+  <body class="login-body" style="background-image: url(<?=base_url()?>/img/geo_bg.png); background-repeat:no-repeat;background-size:cover;">
