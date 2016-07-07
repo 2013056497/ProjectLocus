@@ -10,7 +10,7 @@
           </header>
           <div class="panel-body">
             <!--Add Project-->
-            <form class=" red_border col-sm-7">
+            <form class=" red_border col-sm-6">
               <input  type="button" id="red" class="btn btn-danger" value="Add Project" onclick="window.location.href='<?=base_url('main/add_project')?>'"/>
             </form>
             <!--Search-->
@@ -31,22 +31,22 @@
                 </div>
             </form>
             <!--Sort-->
-            <form class=" red_border no_margin col-sm-2">
+            <form class=" red_border no_margin col-sm-3">
               <div class="no_margin form-group">
-                <div class="col-sm-8">
+                <div id="_b" class="col-xs-9">
                 <form>
                 <label >
-                  <input id="ckbx" class="radio-inline" type="radio" name="srtradio"/><span class="_a">Name</span>
+                  <input id="ckbx" class="radio-block" type="radio" name="srtradio"/><span class="_a" >By Name</span>
                 </label>
                 <label >
-                  <input id="ckbx" class="radio-inline" type="radio" name="srtradio"/><span class="_a">Date</span>
+                  <input id="ckbx" class="radio-block" type="radio" name="srtradio"/><span class="_a" >By Date</span>
                 </label>
                 <label >
-                  <input id="ckbx" class="radio-inline" type="radio" name="srtradio"/><span class="_a">Type</span>
+                  <input id="ckbx" class="radio-block" type="radio" name="srtradio"/><span class="_a" >By Type</span>
                 </label>
               </form>
                 </div>
-                <input type="submit" id="red" class="col-sm-4 btn btn-danger" value="Sort" id="red"/>
+                <input type="submit" id="red" class="col-xs-3 btn btn-danger" value="Sort" id="red"/>
               </div>
             </form>
             <hr class="a_margin col-sm-12" style="color:red;">
@@ -74,7 +74,7 @@
                           </td>
                           <td class="p-status">
                               <div class="no_margin progress progress-xs">
-                                  <div style="width: 87%;" class="progress-bar progress-bar-success"></div>
+                                  <div style="width: 87%;" class="_red progress-bar progress-bar-success"></div>
                               </div>
                               <small>Open: 87% Complete </small>
                           </td>

@@ -108,6 +108,9 @@ table {
   margin-top:5px;
   background-color: #D41C2A;
 }
+._red{
+  background-color:#D41C2A;
+}
 
 body {
     color: #fff;
