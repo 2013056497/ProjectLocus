@@ -9,6 +9,7 @@
             Manage Projects
           </header>
           <div class="panel-body">
+            <div class="col-md-12">
             <!--Add Project-->
             <form class=" red_border col-sm-6">
               <input  type="button" class="_red btn btn-danger" value="Add Project" onclick="window.location.href='<?=base_url('main/add_project')?>'"/>
@@ -49,7 +50,8 @@
                 <input type="submit" class="_red col-xs-3 btn btn-danger" value="Sort"/>
               </div>
             </form>
-            <hr class="a_margin col-sm-12" style="color:red;">
+            <hr class="col-md-12">
+          </div>
             <div class="col-sm-12 table-responsive">
               <table class="13 table table-hover p-table">
                       <thead>
