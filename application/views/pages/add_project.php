@@ -6,7 +6,7 @@
     <section class="wrapper site-min-height">
         <!-- page start-->
         <div class="row">
-            <div class="col-sm-12">
+            <div class="col-md-12">
                 <section class="panel">
                     <header class="panel-heading">
                         Add Project
@@ -14,14 +14,14 @@
                     <div class="panel-body">
                         <form class="form-horizontal" id="default">
                             <fieldset title="Add Project" class="text-center step" id="default-step-0">
-                              <div class="col-sm-10 col-sm-offset-2">
-                              <div class="col-sm-12 red_border">
-                                <h5 class="col-sm-8 red no_margin">
+                              <div class="col-md-11 col-md-offset-2">
+                              <div class="col-md-12 red_border">
+                                <h5 class="col-md-8 red no_margin">
                                   General
                                 </h5>
-                                <div class="col-sm-10 form-group">
-                                    <label class="col-sm-2 control-label">Type</label>
-                                    <div class="col-sm-10">
+                                <div class="col-md-10 form-group">
+                                    <label class="col-md-4 control-label">Type</label>
+                                    <div class="col-md-10">
                                         <select class="form-control js-example-basic-single">
 																					<?php foreach($project_types as $project_type){ ?>
                 													<option value="<?php echo $project_type['id'];?>"><?php echo $project_type['name'];     ?></option>
@@ -29,9 +29,9 @@
                                         </select>
                                     </div>
                                 </div>
-																<div class="col-sm-10 form-group">
-                                    <label class="col-sm-2 control-label">Status</label>
-                                    <div class="col-sm-10">
+																<div class="col-md-10 form-group">
+                                    <label class="col-md-4 control-label">Status</label>
+                                    <div class="col-md-10">
                                         <select class="form-control js-example-basic-single">
 																					<?php foreach($project_status as $pstatus){ ?>
                 													<option value="<?php echo $pstatus['id'];?>"><?php echo $pstatus['name'];     ?></option>
@@ -39,25 +39,25 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-sm-10 form-group">
-                                    <label class="col-sm-2 control-label">Project Name</label>
-                                    <div class="col-sm-10">
+                                <div class="col-md-10 form-group">
+                                    <label class="col-md-4 control-label">Project Name</label>
+                                    <div class="col-md-10">
                                         <input type="text" class="form-control">
                                     </div>
                                 </div>
-																<div class="col-sm-10 form-group">
-                                    <label class="col-sm-2 control-label">Description</label>
-                                    <div class="col-sm-10">
-                                        <textarea class="form-control" cols="60" rows="5"></textarea>
+																<div class="col-md-10 form-group">
+                                    <label class="col-md-4 control-label">Description</label>
+                                    <div class="col-md-10">
+                                        <textarea class="form-control" cols="60" rows="4"></textarea>
                                     </div>
                                 </div>
                               </div>
-                              <div class="m-t-20 col-sm-12 red_border">
-                                <h5 class="col-sm-8 red m-b-20">
+                              <div class="m-t-20 col-md-12 red_border">
+                                <h5 class="col-md-8 red m-bot20">
                                   Stakeholders
                                 </h5>
-                                <div class="col-sm-10 form-group">
-                                    <div class="col-sm-10">
+                                <div class="col-md-10 form-group">
+                                    <div class="col-md-10">
                                       <select class="form-control js-example-basic-multiple"  multiple="multiple">
                                         <optgroup label="Center Heads">
                                           <?php foreach ($center_heads as $center_head) { ?>
@@ -88,19 +88,22 @@
                                     </div>
                                 </div>
                               </div>
-																<div class="col-sm-10 form-group">
-                                    <label class="col-sm-2 control-label">Attachments</label>
-                                    <div class="col-sm-10">
-																				<!--code-->
-                                    </div>
+                              <div class="m-t-20 col-md-12 red_border">
+                                <h5 class="col-md-8 red m-bot20">
+                                  Attachments
+                                </h5>
+																<div class="col-md-12 form-group">
+                                  <div class="col-md-5 col-md-offset-2">
+                                    <input style="padding-right:0px;" class="_red btn btn-danger" type="file" multiple=""/>
+                                  </div>
                                 </div>
-                                <div>
-
-
+                              </div>
+                              <hr class="col-md-8">
+                              <input type="submit" class="m-t-20 _red col-md-8 btn btn-danger" value="Add Project"/>
+                            </div>
                             </fieldset>
-                            <input type="submit" class="_red finish btn btn-danger" value="Finish"/>
                         </form>
-                    </div>
+                      </div>
                 </section>
             </div>
         </div>

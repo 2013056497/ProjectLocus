@@ -11,7 +11,7 @@
           <div class="panel-body">
             <!--Add Project-->
             <form class=" red_border col-sm-6">
-              <input  type="button" id="red" class="btn btn-danger" value="Add Project" onclick="window.location.href='<?=base_url('main/add_project')?>'"/>
+              <input  type="button" class="_red btn btn-danger" value="Add Project" onclick="window.location.href='<?=base_url('main/add_project')?>'"/>
             </form>
             <!--Search-->
             <form class=" red_border no_margin col-sm-3">
@@ -46,7 +46,7 @@
                 </label>
               </form>
                 </div>
-                <input type="submit" id="red" class="col-xs-3 btn btn-danger" value="Sort" id="red"/>
+                <input type="submit" class="_red col-xs-3 btn btn-danger" value="Sort"/>
               </div>
             </form>
             <hr class="a_margin col-sm-12" style="color:red;">
@@ -66,8 +66,8 @@
                       <tbody>
                       <tr>
                           <td class="p-action">
-                            <a href="#" id="red" class="btn btn-danger btn-xs"><i class="fa fa-pencil"></i> Edit </a>
-                            <a href="#" id="red" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> Delete </a>
+                            <a href="#" class="_red btn btn-danger btn-xs"><i class="fa fa-pencil"></i> Edit </a>
+                            <a href="#" class="_red btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> Delete </a>
                           </td>
                           <td class="p-id">
                             1
@@ -79,7 +79,7 @@
                               <small>Open: 87% Complete </small>
                           </td>
                           <td>
-                              <a href="#" style="color:red;" class="p-name">Test Project</a>
+                              <a href="#" style="color:red;" class="red p-name">Test Project</a>
                           </td>
                           <td>
                               Support

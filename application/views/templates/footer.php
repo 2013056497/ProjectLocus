@@ -33,7 +33,7 @@
     <script src="<?=base_url()?>js/easy-pie-chart.js"></script>
     <script src="<?=base_url()?>js/count.js"></script>
 
-  <script>
+<!--  <script>
 
       //owl carousel
 
@@ -60,7 +60,7 @@
       });
 
   </script>
-
+-->
   </body>
 
 </html>
