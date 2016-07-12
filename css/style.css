@@ -66,8 +66,8 @@ textarea:focus, input:focus {
   color:#000;
 }
 
-#red {
-  background-color: #D41C2A;
+.red {
+  color: #D41C2A;
 }
 
 label {
@@ -86,6 +86,7 @@ td {
 
 table {
   color:#000;
+  font-size: small;
 }
 
 .no_margin {
@@ -102,6 +103,9 @@ table {
 .red_border {
   border-left: solid red 1px;
 }
+.form-group {
+    margin-bottom: 3px;
+}
 
 #sch {
   margin-left: 15px;
@@ -110,6 +114,14 @@ table {
 }
 ._red{
   background-color:#D41C2A;
+}
+
+dl {
+  margin-bottom: 10px;
+}
+
+.m-t-20 {
+  margin-top: 20px;
 }
 
 body {
@@ -276,7 +288,7 @@ a, a:hover, a:focus {
 /*sidebar navigation*/
 
 #sidebar {
-    width: 210px;
+    width: 180px;
     height: 100%;
     position: fixed;
     background: #460817;
@@ -441,7 +453,7 @@ ul.sidebar-menu li a.active i {
 /*main content*/
 
 #main-content {
-    margin-left: 210px;
+    margin-left: 180px;
 }
 
 .header, .footer {
@@ -2546,11 +2558,11 @@ ul.inbox-pagination li {
 }
 
 .bio-graph-heading {
-    background: #41cac0;
+    background: #D41C2A;
     color: #fff;
     text-align: center;
     font-style: italic;
-    padding: 40px 110px;
+    padding: 20px 110px;
     border-radius: 4px 4px 0 0;
     -webkit-border-radius: 4px 4px 0 0;
     font-size: 16px;
@@ -5967,7 +5979,7 @@ a.guest-on i {
 }
 
 .mtop20 {
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .p-files li a {

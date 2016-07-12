@@ -66,6 +66,17 @@ class Main extends CI_Controller {
 			redirect('main');
 		}
 	}
+	public function manage_tasks(){
+		if($this->session->userdata('is_logged_in') == TRUE){
+				$this->load->view('templates/header');
+				$this->load->view('templates/lsidebar');
+				$this->load->view('templates/rsidebar');
+				$this->load->view('pages/manage_tasks');
+				$this->load->view('templates/footer');
+		}else{
+			redirect('main');
+		}
+	}
 	public function authentication(){
 			$this->load->model('model_main');
 		$this->load->library('form_validation');
